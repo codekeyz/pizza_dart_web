@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pizza_store/env/env.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Pizza Store - ${Env.KEY2}',
+      title: 'Pizza Store',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
       ),
