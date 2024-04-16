@@ -32,9 +32,11 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 1;
   final int _pizzaUnitPrice = 5;
 
-  void _incrementCounter() {
-    setState(() => _counter++);
-  }
+  void _incrementCounter();
+
+  //  {
+  //   setState(() => _counter++);
+  // }
 
   @override
   Widget build(BuildContext context) {
